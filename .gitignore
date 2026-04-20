@@ -1,0 +1,27 @@
+# Build output
+scadt.exe
+scadt-test.exe
+*.exe.~*
+
+# Runtime state (создаются scadt.exe при первом запуске)
+scadt.json
+scadt.json.tmp
+scadt-test.json
+data/
+data-test/
+
+# Go test/profile artifacts
+*.test
+*.prof
+*.out
+coverage.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
